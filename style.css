@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Kanit&family=Lobster&display=swap');
+:root {
+    --main: #242423;
+    --color2: #f5cb5c;
+    --color3: #f7c59f;
+    --color1: #8a7870;
+    --font1: 'Chakra Petch', sans-serif;
+    --font2: 'Lobster', cursive;
+    --font3: 'Kanit', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--main);
+
+}
+
+.nav{
+    position:static;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.navegacion ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.navegacion li{
+    font-family: var(--font3);
+    font-size: 1.1rem;
+    margin: 5px;
+    color: var(--color1);
+    background-color: transparent;
+    width: 130px;
+    height: auto;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 7px
+}
+.navegacion li a{
+    text-decoration: none;
+    color: var(--color1);
+}
+.navegacion li:hover{
+    background-color: #f1dca7;
+}
+.nav img{
+    margin: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-family: var(--font2);
+    color: var(--color1);
+}
+h2{
+    font-family: var(--font1);
+    color: var(--color3);
+}
+.mainAbout{
+    width: 100%;
+    height: 90vh;
+    background-color: #f5cb5c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.information{
+    width: 50%;
+    height: 70vh;
+    background-color:cornsilk;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.textInformation p{
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+}
+.photo img{
+    width: 100px;
+    background-color: burlywood;
+    border-radius: 7px;
+}
+.languages{
+    background-color: antiquewhite;
+    width: 45%;
+    height: 70vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.htmlCss{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue;
+}
+.jsPython{
+    height: 50%;
+    display: flex;
+    width: 100%;
+    background-color: chartreuse;
+}
