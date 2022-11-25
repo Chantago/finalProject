@@ -113,7 +113,6 @@ h2{
     border-radius: 7px;
 }
 .languages{
-    background-color: antiquewhite;
     width: 45%;
     height: 70vh;
     border-radius: 5px;
@@ -125,11 +124,44 @@ h2{
     display: flex;
     width: 100%;
     height: 50%;
-    background-color: cornflowerblue;
+    border-radius: 7px;
 }
 .jsPython{
     height: 50%;
     display: flex;
     width: 100%;
+    border-radius: 7px;
+}
+.css{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 7px;
+}
+.html{
+    background-color: cornflowerblue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.js{
     background-color: chartreuse;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.python{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    background-color: cyan;
+    align-items: center;
+    border-radius: 7px;
 }
