@@ -86,7 +86,7 @@ h2{
 .mainAbout{
     width: 100%;
     height: 90vh;
-    /*background-color: #f5cb5c;*/
+    background-color: #f5cb5c;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -94,33 +94,22 @@ h2{
 .information{
     width: 50%;
     height: 70vh;
-    background-color:var(--color3);
+    background-color:cornsilk;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     margin: 10px;
 }
-.information:hover{
-    box-shadow: rgba(145, 141, 141, 0.35) 0px 5px 15px;
-}
-.textInformation{
-    display: flex;
-    justify-content: center;
-}
 .textInformation p{
     height: 50vh;
-    width: 90%;
-    /*background-color: aquamarine;*/
+    width: 100%;
+    background-color: aquamarine;
     text-align: center;
-    border-radius: 7px;
-    display: flex;
-    justify-content: center;
 }
 .photo img{
     width: 100px;
-    /*background-color: burlywood;*/
+    background-color: burlywood;
     border-radius: 7px;
 }
 .languages{
@@ -144,46 +133,35 @@ h2{
     border-radius: 7px;
 }
 .css{
-    
+    background-color: crimson;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     border-radius: 7px;
 }
-.css:hover{
-    background-color: rgb(109, 129, 241);
-}
-
 .html{
+    background-color: cornflowerblue;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-    
-}
-.html:hover{
-    background-color: orangered;
 }
 
 .js{
+    background-color: chartreuse;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-}
-.js:hover{
-    background-color: yellow;
 }
 .python{
     display: flex;
     width: 50%;
     justify-content: center;
+    background-color: cyan;
     align-items: center;
     border-radius: 7px;
-}
-.python:hover{
-    background-color: greenyellow;
 }
