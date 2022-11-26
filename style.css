@@ -18,9 +18,9 @@ body{
 
 }
 
-.nav{
+/*.nav{
     position:static;
-}
+}*/
 .navbar{
     width: 100%;
     height: 10vh;
@@ -242,4 +242,58 @@ h2{
     color: var(--color3);
     font-family: var(--font4);
     font-size: small;
+}
+@media screen and (max-width: 720px){
+    body{
+        margin: 0;
+        padding: 0 ;
+    }
+    .navbar{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        height: 40vh;
+    }
+    .navegacion{
+        height: 50%;
+    }
+    .navegacion ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        width: 80px;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .main{
+        height: 60vh;
+    }
+    .information{
+        width: 90%;
+        height: 80%;
+    }
+    .languages{
+        width: 90%;
+        height: 80vh;
+        margin: 10px;
+    }
+    .mainAbout{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainProjects{
+        display: flex;
+        justify-content: center;
+    }
+    .project1{
+        width: 90%;
+        height: 70%;
+    }
 }
