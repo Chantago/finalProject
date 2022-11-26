@@ -232,7 +232,7 @@ h2{
 }
 
 .imageProject{
-    background-color:darksalmon ;
+    background-color:var(--color3) ;
     width: 90%;
     height: 60%;
     display: flex;
